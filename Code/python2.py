@@ -54,6 +54,7 @@ def one(input1):
 # What operator will give you the remainder?
 # Use your CLI to access the Python documentation and get help manipulating strings - help(range).
 
+# not working
 def two(input1):
     return True if input1 % input1 == 0 and input1 % 1 == 0 else False
 
@@ -121,7 +122,7 @@ def four(input1, input2):
 # There is a module which can be used to generate random numbers, this module is called random.
 # The random module contains a function called randint.
 
-
+#not working
 def five():
     myList = []
     myList = random.sample(range(100, 200), 5)
@@ -145,10 +146,11 @@ def five():
 # <HINT>
 # There are no hints for this question.
 
+#not working
 def six(input):
     # suffix = "py"
     # result = input.endswith(suffix)
-    newStr = input[-2:]
+    newStr = (input[-2:]).lower()
     if newStr == "py":
         result = True
     else:
@@ -199,7 +201,9 @@ def seven(a, b, c):
 # Use the cli to access the documentation help(str.replace)
 
 def eight(input, a):
-    return ""
+
+    newStr = input.replace('s', '', a)
+    return newStr
 
 
 # <QUESTION 9>
