@@ -146,7 +146,6 @@ def five():
 # <HINT>
 # There are no hints for this question.
 
-#not working
 def six(input):
     # suffix = "py"
     # result = input.endswith(suffix)
@@ -202,7 +201,6 @@ def seven(a, b, c):
 
 def eight(input, a):
 
-    newStr = input.replace('s', '', a)
     return newStr
 
 
